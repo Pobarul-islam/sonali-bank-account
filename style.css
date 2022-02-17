@@ -1,0 +1,17 @@
+.moneyPic {
+  margin-left: 30px;
+  height: 60%;
+  width: 90%;
+}
+
+.row {
+  margin-top: 50px;
+}
+.incomeBox {
+  border: solid light;
+}
+
+.calculateBtn {
+  margin-top: 4%;
+  margin-left: 2%;
+}
