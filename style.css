@@ -1,17 +1,12 @@
-.moneyPic {
-  margin-left: 30px;
-  height: 60%;
-  width: 90%;
-}
 
-.row {
-  margin-top: 50px;
+.image img{
+ width: 95%;
+ 
 }
-.incomeBox {
-  border: solid light;
-}
+.expenses{
+  background-color: lightgrey;
 
-.calculateBtn {
-  margin-top: 4%;
-  margin-left: 2%;
+
+  
+ 
 }
