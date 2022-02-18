@@ -1,12 +1,9 @@
-
-.image img{
- width: 95%;
- 
+.image img {
+  width: 95%;
 }
-.expenses{
+
+/* .expenses background color start */
+.expenses {
   background-color: lightgrey;
-
-
-  
- 
 }
+/* .expenses background color start */
