@@ -1,6 +1,6 @@
 // calculate button handle
 function calculateBtn() {
-  // Balance section 
+  // Balance section
   let incomeValue = document.getElementById("income-value");
 
   let balanceDisplay = document.getElementById("balance-display");
@@ -18,8 +18,19 @@ function calculateBtn() {
 
   document.getElementById("total-expenses").innerText = totalExpenses;
 
-  foodValue.value = '';
+  foodValue.value = "";
 
-    balanceDisplay.innerText = balanceDisplay.innerText - totalExpenses;1 ``
+ 
+  
+  let saveAmount = totalExpenses*20/100;
+  console.log(saveAmount);
 
+  // balanceDisplay.innerText = balanceDisplay.innerText - totalExpenses;
+  balanceDisplay.innerText = balanceDisplay.innerText - totalExpenses;
+}
+
+function savebtn(){
+  let twentySave = document.getElementById("twenty").innerText;
+  console.log(twentySave)
+  // let saveAmount = (totalExpenses * 20) / 100;
 }
